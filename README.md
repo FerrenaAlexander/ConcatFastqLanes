@@ -45,10 +45,10 @@ Here is how it works:
 The script takes two positional arguments. The positions are important.
 
 1. INDIR: this is a path to a folder containing the .fastq.gz or .fq.gz files as above.
-2. OUTDIR: this is a path to a folder containing the merged concatenated .fastq.gz files.
+2. OUTDIR: this is a path to a folder where the merged files will be saved
 
 ```
-/path/to/script/concatfilenames_script.sh path/to/split/files path/to/merged/files
+/path/to/script/concatfilenames_script.sh    path/to/split/files    path/to/desired/output
 ```
 
 <br />
