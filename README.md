@@ -33,7 +33,7 @@ Patient1_L001_R2_001.fastq.gz
 
 ## Installation
 1. Download, install or clone the file `concatfilenames_script.sh`.
-2. Make it executable: `chmod chmod +x concatfilenames_script.sh`
+2. (may not be necessary since executable permissions shoudl transfer); Make it executable: `chmod chmod +x concatfilenames_script.sh`
 
 ## Usage
 
