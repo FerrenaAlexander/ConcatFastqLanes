@@ -45,15 +45,19 @@ Here is how it works:
 The script takes two positional arguments. The positions are important.
 
 1. INDIR: this is a path to a folder containing the .fastq.gz or .fq.gz files as above.
-2. OUTDIR: this is a path to a folder containing the merged concatenated .fastq.gz files.
+2. OUTDIR: this is a path to a folder where the merged files will be saved
 
+Below is how I do it:
 ```
-/path/to/script/concatfilenames_script.sh path/to/split/files path/to/merged/files
+INDIR=path/to/folder/with/split/files
+OUTDIR=path/to/desired/output
+
+/path/to/ConcatFastqLanes/concatfilenames_script.sh $INDIR $OUTDIR
 ```
 
 <br />
 <br />
 
-## Inspiration
+## 
 
-This script was inspired by and modified from [this blog post](https://www.biostars.org/p/317385/#317471). Enhancements include the ability to choose input and output folders, ability to handle .fq.gz files, and string splitting using "_L00" rather than string length cutting.
+This script was inspired by and modified from [this forum discussion](https://www.biostars.org/p/317385/#317471). Enhancements include the ability to choose input and output folders, ability to handle .fq.gz files, and string splitting using "_L00" rather than string length cutting.
