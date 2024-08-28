@@ -32,7 +32,7 @@ Patient1_L001_R2_001.fastq.gz
 
 
 ## Installation
-1. Clone this repo or download/copy the file `concatfilenames_script.sh`.
+1. Clone this repo or download/copy the file `concatfastqlanes_script.sh`.
 2. You may have to make it executable: `chmod chmod +x concatfilenames_script.sh`
 
 ## Usage
@@ -40,7 +40,7 @@ Patient1_L001_R2_001.fastq.gz
 Make sure to provide the path to the file when calling it (or you can add it to your PATH)
 
 Here is how it works:
-`./concatfilenames_script INDIR OUTDIR`
+`./concatfastqlanes_script.sh INDIR OUTDIR`
 
 The script takes two positional arguments. The positions are important.
 
@@ -52,12 +52,12 @@ Below is how I do it:
 INDIR=path/to/folder/with/split/files
 OUTDIR=path/to/desired/output
 
-/path/to/ConcatFastqLanes/concatfilenames_script.sh $INDIR $OUTDIR
+/path/to/ConcatFastqLanes/concatfastqlanes_script.sh $INDIR $OUTDIR
 ```
 
 <br />
 <br />
 
-## 
+## Inspiration
 
 This script was inspired by and modified from [this forum discussion](https://www.biostars.org/p/317385/#317471). Enhancements include the ability to choose input and output folders, ability to handle .fq.gz files, and string splitting using "_L00" rather than string length cutting.
